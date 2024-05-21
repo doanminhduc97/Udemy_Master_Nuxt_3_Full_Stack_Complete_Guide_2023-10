@@ -1,4 +1,6 @@
 ---
+publishedAt: 2023-03-12 17:15:00
+toc: true
 title: 'My Page Title'
 description: 'What a lovely page.'
 image:
