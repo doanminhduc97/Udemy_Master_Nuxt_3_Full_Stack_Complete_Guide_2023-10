@@ -42,10 +42,12 @@
       root: null,
       threshold: 0.5
     });
-    const elements = document.querySelectorAll('h2, h3');
-    for (const element of elements) {
-      observer.observe(element);
-    }
+    setTimeout(() => {
+      const elements = document.querySelectorAll('h2, h3');
+      for (const element of elements) {
+        observer.observe(element);
+      }
+    }, 150);
     onBeforeUnmount(() => {
       for (const element of elements) {
         observer.unobserve(element);
